@@ -21,7 +21,7 @@ A powerful Neovim plugin for Jira integration with Telescope.
 
 ```lua
 return {
-  dir = vim.fn.expand("~/Personal/jira.nvim"),
+  "Enigama/jira.nvim",
   dependencies = {
     "nvim-lua/plenary.nvim",
     "nvim-telescope/telescope.nvim",
@@ -117,16 +117,6 @@ Press `<C-y>` in any picker to see copy options:
 4. **Ticket title** - `Fix authentication bug`
 5. **Key + Title** - `PROJ-123 - Fix authentication bug`
 6. **Slack format** - `<https://...|PROJ-123>`
-
-## Documentation
-
-See the `lua/jira/` directory for detailed documentation:
-
-- [QUICKSTART.md](lua/jira/QUICKSTART.md) - 5-minute getting started guide
-- [CHEATSHEET.md](lua/jira/CHEATSHEET.md) - Quick reference card
-- [STATUS_FILTER_GUIDE.md](lua/jira/STATUS_FILTER_GUIDE.md) - Status filtering feature guide
-- [FEATURES.md](lua/jira/FEATURES.md) - Complete feature list and enhancement ideas
-- [README.md](lua/jira/README.md) - Detailed plugin documentation
 
 ## Requirements
 

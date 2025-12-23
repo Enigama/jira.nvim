@@ -99,8 +99,16 @@ The plugin follows a modular architecture:
 - `init.lua` - Main plugin entry point, configuration, and commands
 - `auth.lua` - Authentication handling with JIRA_TOKEN
 - `api.lua` - Jira REST API wrapper with caching
-- `ui.lua` - Telescope integration and UI components
 - `transitions.lua` - Workflow transition management
+- `comments.lua` - Comment fetching and display
+- `recent.lua` - Recently viewed issues tracking
+- `ui/` - UI components:
+  - `init.lua` - UI module entry point
+  - `telescope_pickers.lua` - Telescope picker integration
+  - `menus.lua` - Copy menu and action menus
+  - `buffer.lua` - Issue detail buffer display
+  - `format.lua` - Issue formatting utilities
+  - `utils.lua` - UI helper functions
 
 ## Troubleshooting
 
